@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Contribution Showcase</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">Contribution Showcase</p>
+      <h1>GitHub Contributions</h1>
+      <p class="intro">
+        Enter a GitHub username to load recent public contribution activity from the GitHub API.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Recent Contributions</h2>
+        <form id="search-form" class="controls">
+          <label for="username">GitHub username</label>
+          <input id="username" name="username" type="text" placeholder="octocat" required />
+          <button type="submit">Load</button>
+        </form>
+        <p id="status" class="status">Type a username and click Load.</p>
+        <div id="contribution-list" class="grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>
+      <small>Built with Bun + GitHub API</small>
+    </footer>
+
+    <script src="/script.js" type="module"></script>
+  </body>
+</html>

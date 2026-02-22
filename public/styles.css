@@ -1,0 +1,138 @@
+:root {
+  --bg: #f4f7fb;
+  --text: #12263a;
+  --muted: #4d6071;
+  --card: #ffffff;
+  --accent: #0069c2;
+  --border: #d6dfeb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+  color: var(--text);
+}
+
+.hero,
+main,
+footer {
+  width: min(920px, 92%);
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 3rem 0 2rem;
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+h1 {
+  margin: 0.7rem 0;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+.intro {
+  margin: 0;
+  max-width: 68ch;
+  color: var(--muted);
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 0 0 1rem;
+}
+
+.controls {
+  display: flex;
+  gap: 0.6rem;
+  align-items: end;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+
+.controls label {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.controls input {
+  min-width: 220px;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font: inherit;
+}
+
+.controls button {
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.status {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  min-height: 1.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.meta {
+  margin: 0 0 0.7rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.card p {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding: 2rem 0 3rem;
+  color: var(--muted);
+}
