@@ -56,7 +56,7 @@ async function loadContributions() {
   listEl.innerHTML = "";
 
   try {
-    const response = await fetch("/data/contributions.json", { cache: "no-store" });
+    const response = await fetch("./data/contributions.json", { cache: "no-store" });
     const payload = await response.json();
 
     if (!response.ok) {
