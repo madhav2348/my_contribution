@@ -1,10 +1,13 @@
 :root {
-  --bg: #f4f7fb;
-  --text: #12263a;
-  --muted: #4d6071;
-  --card: #ffffff;
-  --accent: #0069c2;
-  --border: #d6dfeb;
+  --bg: #000000;
+  --bg-panel: #050505;
+  --bg-card: #0a0a0a;
+  --text: #f1f1f1;
+  --muted: #b8b8b8;
+  --accent: #4ee37a;
+  --border: #2e2e2e;
+  --link: #8ce99a;
+  --chrome: #3a3a3a;
 }
 
 * {
@@ -13,126 +16,191 @@
 
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+  min-height: 100vh;
+  font-family: "Ubuntu Mono", "Cascadia Mono", "JetBrains Mono", Consolas, monospace;
   color: var(--text);
+  background: var(--bg);
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 2px,
+    rgba(255, 255, 255, 0.06) 3px,
+    rgba(0, 0, 0, 0) 4px
+  );
 }
 
 .hero,
-main,
-footer {
-  width: min(920px, 92%);
+main {
+  width: 100%;
   margin: 0 auto;
 }
 
 .hero {
-  padding: 3rem 0 2rem;
+  display: none;
 }
 
-.eyebrow {
-  margin: 0;
-  color: var(--accent);
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  font-size: 0.78rem;
+main {
+  min-height: 100vh;
+  padding: 0;
 }
 
-h1 {
-  margin: 0.7rem 0;
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
+.terminal {
+  min-height: 100vh;
+  border: 0;
+  border-radius: 0;
+  background: var(--bg-panel);
+  box-shadow: none;
+  padding: 1rem;
 }
 
-.intro {
-  margin: 0;
-  max-width: 68ch;
-  color: var(--muted);
+.terminal-head {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 1px solid #525252;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #4b4b4b, var(--chrome));
+  padding: 0.45rem 0.6rem;
+  margin: 0 0 0.9rem;
+}
+
+.terminal-head::after {
+  content: "";
+  display: block;
+  flex: 1;
+}
+
+.dot {
+  width: 0.62rem;
+  height: 0.62rem;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.dot.red {
+  background: #f9675d;
+}
+
+.dot.yellow {
+  background: #f4bf4f;
+}
+
+.dot.green {
+  background: #5ccc72;
+}
+
+.terminal-title {
+  margin-left: 0.45rem;
+  color: #ececec;
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
 }
 
 h2 {
-  font-size: 1.3rem;
-  margin: 0 0 1rem;
+  margin: 0;
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 400;
 }
 
-.controls {
-  display: flex;
-  gap: 0.6rem;
-  align-items: end;
-  flex-wrap: wrap;
-  margin-bottom: 0.6rem;
+.prompt-user {
+  color: #86f39a;
 }
 
-.controls label {
-  font-size: 0.9rem;
-  color: var(--muted);
+.prompt-path {
+  color: #76a9fa;
 }
 
-.controls input {
-  min-width: 220px;
-  padding: 0.6rem 0.7rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  font: inherit;
-}
-
-.controls button {
-  padding: 0.6rem 0.9rem;
-  border: 1px solid var(--accent);
-  border-radius: 8px;
-  background: var(--accent);
-  color: #fff;
-  font: inherit;
-  cursor: pointer;
+h2::after {
+  content: "_";
+  color: var(--text);
+  margin-left: 0.2rem;
+  animation: cursor 1s steps(1) infinite;
 }
 
 .status {
-  margin: 0 0 1rem;
+  margin: 0.7rem 0 1rem;
   color: var(--muted);
   min-height: 1.2rem;
 }
 
+.status::before {
+  content: "$";
+  color: #e8e8e8;
+  margin-right: 0.5rem;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.8rem;
 }
 
 .card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 1rem;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  background: var(--bg-card);
+  padding: 0.95rem;
 }
 
 .card h3 {
-  margin: 0 0 0.5rem;
-  font-size: 1.05rem;
+  margin: 0 0 0.4rem;
+  font-size: 0.92rem;
+  color: #d2d2d2;
+  word-break: break-word;
 }
 
 .meta {
-  margin: 0 0 0.7rem;
-  color: var(--muted);
-  font-size: 0.9rem;
+  margin: 0 0 0.55rem;
+  color: #9f9f9f;
+  font-size: 0.78rem;
 }
 
 .card p {
   margin: 0;
-  line-height: 1.45;
+  line-height: 1.5;
+  font-size: 0.9rem;
 }
 
 .card a {
-  display: inline-block;
-  margin-top: 0.8rem;
-  color: var(--accent);
+  color: var(--link);
   text-decoration: none;
-  font-weight: 600;
+  border-bottom: 1px dotted rgba(140, 233, 154, 0.55);
 }
 
 .card a:hover {
-  text-decoration: underline;
+  border-bottom-color: var(--link);
 }
 
-footer {
-  padding: 2rem 0 3rem;
-  color: var(--muted);
+@keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .terminal {
+    padding: 0.8rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }

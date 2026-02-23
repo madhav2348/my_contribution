@@ -8,24 +8,24 @@
   </head>
   <body>
     <header class="hero">
-      <p class="eyebrow">Contribution Showcase</p>
-      <h1>Merged PR Contributions</h1>
-      <p class="intro">
-        Static data for <strong>madhav2348</strong>, generated only when run locally or via workflow dispatch.
-      </p>
+    
     </header>
 
     <main>
-      <section>
-        <h2>Recent Contributions</h2>
+      <section class="terminal">
+        <!-- <div class="terminal-head">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="terminal-title">madhav2348@contrib-tracker: ~</span>
+        </div> -->
+        <h2>
+          <span class="prompt-user">madhav2348@contrib-tracker</span>:<span class="prompt-path">~</span>$ ./show-merged-prs
+        </h2>
         <p id="status" class="status">Loading static contribution data...</p>
         <div id="contribution-list" class="grid" aria-live="polite"></div>
       </section>
     </main>
-
-    <footer>
-      <small>Built with Bun + pre-generated JSON</small>
-    </footer>
 
     <script src="/script.js" type="module"></script>
   </body>

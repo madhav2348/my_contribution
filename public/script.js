@@ -38,8 +38,11 @@ function renderContributions(contributions) {
         <article class="card">
           <h3>${escapeHtml(item.project)}</h3>
           <p class="meta">${escapeHtml(item.type)} - ${escapeHtml(formatDate(item.date))}</p>
-          <p>${escapeHtml(item.summary)}</p>
-          <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer noopener">Open on GitHub</a>
+          <p>
+            <a class="pr-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer noopener">
+              ${escapeHtml(item.summary)}
+            </a>
+          </p>
         </article>
       `,
     )
