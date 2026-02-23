@@ -1,6 +1,6 @@
 import { safePublicPath, serveStatic } from "./static";
 
-const PORT = Number(process.env.PORT ?? 3000);
+const PORT = Number(process.env.PORT ?? 4000);
 
 Bun.serve({
   port: PORT,

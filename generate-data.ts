@@ -52,16 +52,19 @@ function ownerFromRepositoryUrl(repositoryUrl: string): string {
 }
 
 async function githubFetchJson<T>(url: string): Promise<T> {
-  const headers: Record<string, string> = {
+  const baseHeaders: Record<string, string> = {
     Accept: "application/vnd.github+json",
     "User-Agent": "my-contribution-static-generator",
   };
 
-  if (process.env.GITHUB_TOKEN) {
-    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
-  }
+  const token = process.env.GITHUB_TOKEN?.trim();
+  const authHeaders = token ? { ...baseHeaders, Authorization: `Bearer ${token}` } : baseHeaders;
+  let response = await fetch(url, { headers: authHeaders });
 
-  const response = await fetch(url, { headers });
+  if (token && response.status === 401) {
+    console.warn("GITHUB_TOKEN is invalid/expired. Retrying without token.");
+    response = await fetch(url, { headers: baseHeaders });
+  }
 
   if (!response.ok) {
     const body = (await response.text()).slice(0, 300);

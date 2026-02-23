@@ -1,6 +1,238 @@
 {
   "username": "madhav2348",
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "count": 0,
-  "contributions": []
+  "generatedAt": "2026-02-23T17:20:00.896Z",
+  "count": 33,
+  "contributions": [
+    {
+      "project": "WallGodds/WallGodds-Web",
+      "type": "Merged Pull Request",
+      "date": "2026-02-21T05:55:36Z",
+      "summary": "Merged PR: Edit page part 1",
+      "url": "https://github.com/WallGodds/WallGodds-Web/pull/257"
+    },
+    {
+      "project": "awhvish/SisyphusDB",
+      "type": "Merged Pull Request",
+      "date": "2026-02-16T09:57:50Z",
+      "summary": "Merged PR: Add makefile and update documentation",
+      "url": "https://github.com/awhvish/SisyphusDB/pull/17"
+    },
+    {
+      "project": "JAYATIAHUJA/HIRE",
+      "type": "Merged Pull Request",
+      "date": "2026-02-15T17:08:54Z",
+      "summary": "Merged PR: Add Dockerization",
+      "url": "https://github.com/JAYATIAHUJA/HIRE/pull/16"
+    },
+    {
+      "project": "GauravKarakoti/SwapSmith",
+      "type": "Merged Pull Request",
+      "date": "2026-02-15T03:56:02Z",
+      "summary": "Merged PR: fix lint for frontend ci workflow with enhancement in error handling with connection of database and frontend connection with firebase ",
+      "url": "https://github.com/GauravKarakoti/SwapSmith/pull/128"
+    },
+    {
+      "project": "siray-ai/n8n-nodes-siray",
+      "type": "Merged Pull Request",
+      "date": "2026-02-12T12:35:12Z",
+      "summary": "Merged PR: initialize project",
+      "url": "https://github.com/siray-ai/n8n-nodes-siray/pull/3"
+    },
+    {
+      "project": "Nitya-003/InnerHue",
+      "type": "Merged Pull Request",
+      "date": "2026-02-11T10:05:33Z",
+      "summary": "Merged PR: migration from state management to zushtand",
+      "url": "https://github.com/Nitya-003/InnerHue/pull/77"
+    },
+    {
+      "project": "awhvish/SisyphusDB",
+      "type": "Merged Pull Request",
+      "date": "2026-02-07T21:03:14Z",
+      "summary": "Merged PR: feat. CLI tool with configuration management, metrics, and testing tools",
+      "url": "https://github.com/awhvish/SisyphusDB/pull/11"
+    },
+    {
+      "project": "WARlord05/SpeedyHighway",
+      "type": "Merged Pull Request",
+      "date": "2026-02-07T05:49:57Z",
+      "summary": "Merged PR: Update build_and_release.yml",
+      "url": "https://github.com/WARlord05/SpeedyHighway/pull/16"
+    },
+    {
+      "project": "WARlord05/SpeedyHighway",
+      "type": "Merged Pull Request",
+      "date": "2026-02-05T17:29:34Z",
+      "summary": "Merged PR: CI: Add GitHub Actions workflow for build and release",
+      "url": "https://github.com/WARlord05/SpeedyHighway/pull/14"
+    },
+    {
+      "project": "Nitya-003/InnerHue",
+      "type": "Merged Pull Request",
+      "date": "2026-02-05T08:36:35Z",
+      "summary": "Merged PR: add gitattribute file and stabilize package-lock.json",
+      "url": "https://github.com/Nitya-003/InnerHue/pull/56"
+    },
+    {
+      "project": "GauravKarakoti/SwapSmith",
+      "type": "Merged Pull Request",
+      "date": "2026-02-05T05:42:54Z",
+      "summary": "Merged PR: Add error handing with wallet connection",
+      "url": "https://github.com/GauravKarakoti/SwapSmith/pull/42"
+    },
+    {
+      "project": "GauravKarakoti/SwapSmith",
+      "type": "Merged Pull Request",
+      "date": "2026-02-04T16:04:40Z",
+      "summary": "Merged PR: ci: add CI/CD pipelines for bot and frontend",
+      "url": "https://github.com/GauravKarakoti/SwapSmith/pull/38"
+    },
+    {
+      "project": "Nitya-003/InnerHue",
+      "type": "Merged Pull Request",
+      "date": "2026-02-04T15:24:13Z",
+      "summary": "Merged PR: Add Icons and PWA logic",
+      "url": "https://github.com/Nitya-003/InnerHue/pull/44"
+    },
+    {
+      "project": "ArpitGupta4957/suno_samjho",
+      "type": "Merged Pull Request",
+      "date": "2026-02-04T13:04:03Z",
+      "summary": "Merged PR: fix workflows",
+      "url": "https://github.com/ArpitGupta4957/suno_samjho/pull/14"
+    },
+    {
+      "project": "BDutta18/CITY-STYLE",
+      "type": "Merged Pull Request",
+      "date": "2026-02-03T18:44:22Z",
+      "summary": "Merged PR: rename js file",
+      "url": "https://github.com/BDutta18/CITY-STYLE/pull/38"
+    },
+    {
+      "project": "ArpitGupta4957/suno_samjho",
+      "type": "Merged Pull Request",
+      "date": "2026-02-03T17:03:13Z",
+      "summary": "Merged PR: add build and deploy workflow",
+      "url": "https://github.com/ArpitGupta4957/suno_samjho/pull/3"
+    },
+    {
+      "project": "KaranUnique/CryptoHub",
+      "type": "Merged Pull Request",
+      "date": "2026-02-03T13:50:27Z",
+      "summary": "Merged PR: Fix Text overflow in pricing page",
+      "url": "https://github.com/KaranUnique/CryptoHub/pull/185"
+    },
+    {
+      "project": "KaranUnique/CryptoHub",
+      "type": "Merged Pull Request",
+      "date": "2026-02-03T13:48:37Z",
+      "summary": "Merged PR: Add pagination logic",
+      "url": "https://github.com/KaranUnique/CryptoHub/pull/184"
+    },
+    {
+      "project": "BDutta18/CITY-STYLE",
+      "type": "Merged Pull Request",
+      "date": "2026-02-03T12:27:54Z",
+      "summary": "Merged PR: Fix text overflow in header content",
+      "url": "https://github.com/BDutta18/CITY-STYLE/pull/23"
+    },
+    {
+      "project": "GauravKarakoti/SwapSmith",
+      "type": "Merged Pull Request",
+      "date": "2026-02-03T12:21:27Z",
+      "summary": "Merged PR: fix directory for issue template",
+      "url": "https://github.com/GauravKarakoti/SwapSmith/pull/33"
+    },
+    {
+      "project": "Nitya-003/InnerHue",
+      "type": "Merged Pull Request",
+      "date": "2026-02-03T09:33:18Z",
+      "summary": "Merged PR: Floating emoji animation moved from Framer Motion to CSS",
+      "url": "https://github.com/Nitya-003/InnerHue/pull/28"
+    },
+    {
+      "project": "GauravKarakoti/SwapSmith",
+      "type": "Merged Pull Request",
+      "date": "2026-02-02T17:23:24Z",
+      "summary": "Merged PR: Add PR and Issue Template",
+      "url": "https://github.com/GauravKarakoti/SwapSmith/pull/30"
+    },
+    {
+      "project": "WARlord05/SpeedyHighway",
+      "type": "Merged Pull Request",
+      "date": "2026-02-02T17:05:01Z",
+      "summary": "Merged PR: Add pull request template",
+      "url": "https://github.com/WARlord05/SpeedyHighway/pull/12"
+    },
+    {
+      "project": "saismrutiranjan18/Campus_Runner",
+      "type": "Merged Pull Request",
+      "date": "2026-02-02T14:00:46Z",
+      "summary": "Merged PR: Remove Credential",
+      "url": "https://github.com/saismrutiranjan18/Campus_Runner/pull/8"
+    },
+    {
+      "project": "saismrutiranjan18/Campus_Runner",
+      "type": "Merged Pull Request",
+      "date": "2026-02-02T13:54:53Z",
+      "summary": "Merged PR: Add Issue and pull request template",
+      "url": "https://github.com/saismrutiranjan18/Campus_Runner/pull/6"
+    },
+    {
+      "project": "Nsanjayboruds/RIVETO",
+      "type": "Merged Pull Request",
+      "date": "2026-02-02T08:52:43Z",
+      "summary": "Merged PR: add GitHub issue templates for bugs, enhancements, and features and PR template",
+      "url": "https://github.com/Nsanjayboruds/RIVETO/pull/5"
+    },
+    {
+      "project": "saismrutiranjan18/Campus_Runner",
+      "type": "Merged Pull Request",
+      "date": "2026-02-02T04:07:39Z",
+      "summary": "Merged PR: CI: add GitHub Actions for Android build",
+      "url": "https://github.com/saismrutiranjan18/Campus_Runner/pull/4"
+    },
+    {
+      "project": "TEAMMATES/teammates",
+      "type": "Merged Pull Request",
+      "date": "2026-01-26T11:58:58Z",
+      "summary": "Merged PR: [#13356] Add manual workflow trigger to e2e tests",
+      "url": "https://github.com/TEAMMATES/teammates/pull/13379"
+    },
+    {
+      "project": "processing/processing4",
+      "type": "Merged Pull Request",
+      "date": "2026-01-14T21:54:28Z",
+      "summary": "Merged PR: Migration of the `svg` library to Gradle",
+      "url": "https://github.com/processing/processing4/pull/1289"
+    },
+    {
+      "project": "processing/processing4",
+      "type": "Merged Pull Request",
+      "date": "2025-10-06T21:10:19Z",
+      "summary": "Merged PR: Migration of the `serial` library to Gradle",
+      "url": "https://github.com/processing/processing4/pull/1106"
+    },
+    {
+      "project": "processing/p5.js",
+      "type": "Merged Pull Request",
+      "date": "2025-06-29T16:43:04Z",
+      "summary": "Merged PR: Update zod 3 to zod 4 support in p5.js dev-2.0",
+      "url": "https://github.com/processing/p5.js/pull/7872"
+    },
+    {
+      "project": "pankajkumar9719/password-genarator",
+      "type": "Merged Pull Request",
+      "date": "2024-08-12T16:56:48Z",
+      "summary": "Merged PR: Merge pull request #2 from MrSam9719/main",
+      "url": "https://github.com/pankajkumar9719/password-genarator/pull/3"
+    },
+    {
+      "project": "pankajkumar9719/password-genarator",
+      "type": "Merged Pull Request",
+      "date": "2024-08-12T16:55:45Z",
+      "summary": "Merged PR: Merge pull request #1 from MrSam9719/developer",
+      "url": "https://github.com/pankajkumar9719/password-genarator/pull/2"
+    }
+  ]
 }
