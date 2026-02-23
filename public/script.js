@@ -1,5 +1,3 @@
-const form = document.querySelector("#search-form");
-const usernameInput = document.querySelector("#username");
 const statusEl = document.querySelector("#status");
 const listEl = document.querySelector("#contribution-list");
 
@@ -39,7 +37,7 @@ function renderContributions(contributions) {
       (item) => `
         <article class="card">
           <h3>${escapeHtml(item.project)}</h3>
-          <p class="meta">${escapeHtml(item.type)} · ${escapeHtml(formatDate(item.date))}</p>
+          <p class="meta">${escapeHtml(item.type)} - ${escapeHtml(formatDate(item.date))}</p>
           <p>${escapeHtml(item.summary)}</p>
           <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer noopener">Open on GitHub</a>
         </article>
@@ -48,14 +46,14 @@ function renderContributions(contributions) {
     .join("");
 }
 
-async function loadContributions(username) {
+async function loadContributions() {
   if (!statusEl || !listEl) return;
 
-  statusEl.textContent = `Loading contributions for ${username}...`;
+  statusEl.textContent = "Loading pre-generated contributions...";
   listEl.innerHTML = "";
 
   try {
-    const response = await fetch(`/api/contributions?username=${encodeURIComponent(username)}&limit=12`);
+    const response = await fetch("/data/contributions.json", { cache: "no-store" });
     const payload = await response.json();
 
     if (!response.ok) {
@@ -67,29 +65,15 @@ async function loadContributions(username) {
     renderContributions(contributions);
 
     if (!contributions.length) {
-      statusEl.textContent = `No recent supported contribution events found for ${username}.`;
+      statusEl.textContent = "No merged pull requests found in the generated data.";
       return;
     }
 
-    statusEl.textContent = `Showing ${contributions.length} recent contribution(s) for ${username}.`;
+    const username = typeof payload.username === "string" ? payload.username : "madhav2348";
+    statusEl.textContent = `Showing ${contributions.length} merged pull request(s) for ${username}.`;
   } catch (error) {
-    statusEl.textContent = "Unable to reach the server.";
+    statusEl.textContent = "Unable to load static contribution data.";
   }
 }
 
-if (form && usernameInput) {
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const username = usernameInput.value.trim();
-
-    if (!username) {
-      if (statusEl) statusEl.textContent = "Please enter a GitHub username.";
-      return;
-    }
-
-    loadContributions(username);
-  });
-
-  usernameInput.value = "octocat";
-  loadContributions("octocat");
-}
+loadContributions();

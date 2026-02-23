@@ -1,4 +1,3 @@
-import { handleContributionApi } from "./github";
 import { safePublicPath, serveStatic } from "./static";
 
 const PORT = Number(process.env.PORT ?? 3000);
@@ -7,10 +6,6 @@ Bun.serve({
   port: PORT,
   async fetch(request) {
     const url = new URL(request.url);
-
-    if (url.pathname === "/api/contributions") {
-      return handleContributionApi(url);
-    }
 
     const path = safePublicPath(url);
 

@@ -1,4 +1,4 @@
-export type ContributionType = "Pull Request" | "Push" | "Issue" | "Issue Comment" | "Release";
+export type ContributionType = "Merged Pull Request";
 
 export type Contribution = {
   project: string;

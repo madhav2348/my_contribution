@@ -9,27 +9,22 @@
   <body>
     <header class="hero">
       <p class="eyebrow">Contribution Showcase</p>
-      <h1>GitHub Contributions</h1>
+      <h1>Merged PR Contributions</h1>
       <p class="intro">
-        Enter a GitHub username to load recent public contribution activity from the GitHub API.
+        Static data for <strong>madhav2348</strong>, generated only when run locally or via workflow dispatch.
       </p>
     </header>
 
     <main>
       <section>
         <h2>Recent Contributions</h2>
-        <form id="search-form" class="controls">
-          <label for="username">GitHub username</label>
-          <input id="username" name="username" type="text" placeholder="octocat" required />
-          <button type="submit">Load</button>
-        </form>
-        <p id="status" class="status">Type a username and click Load.</p>
+        <p id="status" class="status">Loading static contribution data...</p>
         <div id="contribution-list" class="grid" aria-live="polite"></div>
       </section>
     </main>
 
     <footer>
-      <small>Built with Bun + GitHub API</small>
+      <small>Built with Bun + pre-generated JSON</small>
     </footer>
 
     <script src="/script.js" type="module"></script>

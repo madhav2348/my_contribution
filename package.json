@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "bun --watch index.ts",
-    "start": "bun run index.ts"
+    "start": "bun run index.ts",
+    "generate:data": "bun run generate-data.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

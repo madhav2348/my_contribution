@@ -1,6 +1,6 @@
 # my_contribution
 
-Simple Bun project that serves a static page to showcase contributions from the GitHub API.
+Static Bun site that shows only merged pull requests made by `madhav2348` to other people's repositories.
 
 ## Install
 
@@ -8,23 +8,26 @@ Simple Bun project that serves a static page to showcase contributions from the 
 bun install
 ```
 
-## Run
+## Generate static data (local)
+
+```powershell
+$env:GITHUB_TOKEN="your_token_here"
+bun run generate:data
+```
+
+This writes `public/data/contributions.json`.
+
+## Run site
 
 ```bash
 bun run dev
 ```
 
-Open `http://localhost:5000`.
+Open `http://localhost:3000`.
 
-## GitHub API notes
+## Update modes
 
-- The page calls your Bun backend at `/api/contributions?username=<name>`.
-- The backend fetches `https://api.github.com/users/<name>/events/public`.
-- Optional: set `GITHUB_TOKEN` to increase rate limits.
+- Local manual update: run `bun run generate:data`.
+- GitHub manual update: run the `Refresh Contributions JSON` workflow (`workflow_dispatch`).
 
-PowerShell example:
-
-```powershell
-$env:GITHUB_TOKEN="your_token_here"
-bun run dev
-```
+The website does not fetch GitHub data at runtime. It reads only the pre-generated JSON file.
