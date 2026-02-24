@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "bun --watch index.ts",
     "start": "bun run index.ts",
-    "generate:data": "bun run generate-data.ts"
+    "generate:data": "bun run generate-data.ts",
+    "generate:readme": "bun run generate-readme.js",
+    "refresh:contributions": "bun run generate:data && bun run generate:readme"
   },
   "devDependencies": {
     "@types/bun": "latest"
