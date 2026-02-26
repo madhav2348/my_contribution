@@ -5,23 +5,27 @@ https://madhav2348.github.io/my_contribution/
 
 | Metric | Value |
 | --- | ---: |
-| Total merged PRs | 34 |
-| Unique repositories | 16 |
-| Last merged PR | 2026-02-24 |
-| Data generated at (UTC) | 2026-02-24 |
+| Total merged PRs | 38 |
+| Unique repositories | 17 |
+| Last merged PR | 2026-02-26 |
+| Data generated at (UTC) | 2026-02-26 |
 
 ## Top Repositories
 
 - `GauravKarakoti/SwapSmith`: **5** merged PRs
 - `Nitya-003/InnerHue`: **4** merged PRs
 - `saismrutiranjan18/Campus_Runner`: **3** merged PRs
+- `siray-ai/n8n-nodes-siray`: **3** merged PRs
 - `WARlord05/SpeedyHighway`: **3** merged PRs
-- `ArpitGupta4957/suno_samjho`: **2** merged PRs
 
 ## All Merged PRs
 
 | Date (UTC) | Repository | Pull Request |
 | --- | --- | --- |
+| 2026-02-26 | `GetBindu/Bindu` | [todo: move settings const to const dir](https://github.com/GetBindu/Bindu/pull/264) |
+| 2026-02-26 | `GetBindu/Bindu` | [todo: make maxFileSize configurable](https://github.com/GetBindu/Bindu/pull/266) |
+| 2026-02-25 | `Nsanjayboruds/RIVETO` | [remove debug logs](https://github.com/Nsanjayboruds/RIVETO/pull/105) |
+| 2026-02-24 | `siray-ai/n8n-nodes-siray` | [Add Image node and video node](https://github.com/siray-ai/n8n-nodes-siray/pull/9) |
 | 2026-02-24 | `siray-ai/n8n-nodes-siray` | [Adding chat node and updates](https://github.com/siray-ai/n8n-nodes-siray/pull/6) |
 | 2026-02-21 | `WallGodds/WallGodds-Web` | [Edit page part 1](https://github.com/WallGodds/WallGodds-Web/pull/257) |
 | 2026-02-16 | `awhvish/SisyphusDB` | [Add makefile and update documentation](https://github.com/awhvish/SisyphusDB/pull/17) |

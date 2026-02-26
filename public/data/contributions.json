@@ -1,8 +1,36 @@
 {
   "username": "madhav2348",
-  "generatedAt": "2026-02-24T07:27:54.544Z",
-  "count": 34,
+  "generatedAt": "2026-02-26T18:32:29.697Z",
+  "count": 38,
   "contributions": [
+    {
+      "project": "GetBindu/Bindu",
+      "type": "Merged Pull Request",
+      "date": "2026-02-26T06:50:27Z",
+      "summary": "Merged PR: todo: move settings const to const dir",
+      "url": "https://github.com/GetBindu/Bindu/pull/264"
+    },
+    {
+      "project": "GetBindu/Bindu",
+      "type": "Merged Pull Request",
+      "date": "2026-02-26T06:50:04Z",
+      "summary": "Merged PR: todo: make maxFileSize configurable",
+      "url": "https://github.com/GetBindu/Bindu/pull/266"
+    },
+    {
+      "project": "Nsanjayboruds/RIVETO",
+      "type": "Merged Pull Request",
+      "date": "2026-02-25T05:28:29Z",
+      "summary": "Merged PR: remove debug logs",
+      "url": "https://github.com/Nsanjayboruds/RIVETO/pull/105"
+    },
+    {
+      "project": "siray-ai/n8n-nodes-siray",
+      "type": "Merged Pull Request",
+      "date": "2026-02-24T09:07:29Z",
+      "summary": "Merged PR: Add Image node and video node",
+      "url": "https://github.com/siray-ai/n8n-nodes-siray/pull/9"
+    },
     {
       "project": "siray-ai/n8n-nodes-siray",
       "type": "Merged Pull Request",
