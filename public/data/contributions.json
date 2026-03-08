@@ -1,8 +1,50 @@
 {
   "username": "madhav2348",
-  "generatedAt": "2026-02-26T18:32:29.697Z",
-  "count": 38,
+  "generatedAt": "2026-03-08T08:46:07.699Z",
+  "count": 41,
   "contributions": [
+    {
+      "project": "agnivo988/Repo-lyzer",
+      "type": "Merged Pull Request",
+      "date": "2026-03-04T05:47:36Z",
+      "summary": "Merged PR: feat. Added monitoring dashboard",
+      "url": "https://github.com/agnivo988/Repo-lyzer/pull/220"
+    },
+    {
+      "project": "Akshith985/Aptos-RWA",
+      "type": "Merged Pull Request",
+      "date": "2026-03-03T13:02:08Z",
+      "summary": "Merged PR: fix. add gas price",
+      "url": "https://github.com/Akshith985/Aptos-RWA/pull/32"
+    },
+    {
+      "project": "Akshith985/Aptos-RWA",
+      "type": "Merged Pull Request",
+      "date": "2026-03-03T12:53:49Z",
+      "summary": "Merged PR: fix-wallet-connection",
+      "url": "https://github.com/Akshith985/Aptos-RWA/pull/29"
+    },
+    {
+      "project": "Akshith985/Aptos-RWA",
+      "type": "Merged Pull Request",
+      "date": "2026-03-02T13:21:54Z",
+      "summary": "Merged PR: add dark mode",
+      "url": "https://github.com/Akshith985/Aptos-RWA/pull/30"
+    },
+    {
+      "project": "betterbugs/dev-tools",
+      "type": "Merged Pull Request",
+      "date": "2026-02-28T22:23:25Z",
+      "summary": "Merged PR: feat. json to csv convertor",
+      "url": "https://github.com/betterbugs/dev-tools/pull/26"
+    },
+    {
+      "project": "Nsanjayboruds/RIVETO",
+      "type": "Merged Pull Request",
+      "date": "2026-02-28T04:58:30Z",
+      "summary": "Merged PR: upadate cookie parameter",
+      "url": "https://github.com/Nsanjayboruds/RIVETO/pull/46"
+    },
     {
       "project": "GetBindu/Bindu",
       "type": "Merged Pull Request",
@@ -23,20 +65,6 @@
       "date": "2026-02-25T05:28:29Z",
       "summary": "Merged PR: remove debug logs",
       "url": "https://github.com/Nsanjayboruds/RIVETO/pull/105"
-    },
-    {
-      "project": "siray-ai/n8n-nodes-siray",
-      "type": "Merged Pull Request",
-      "date": "2026-02-24T09:07:29Z",
-      "summary": "Merged PR: Add Image node and video node",
-      "url": "https://github.com/siray-ai/n8n-nodes-siray/pull/9"
-    },
-    {
-      "project": "siray-ai/n8n-nodes-siray",
-      "type": "Merged Pull Request",
-      "date": "2026-02-24T03:01:55Z",
-      "summary": "Merged PR: Adding chat node and updates",
-      "url": "https://github.com/siray-ai/n8n-nodes-siray/pull/6"
     },
     {
       "project": "WallGodds/WallGodds-Web",
@@ -65,13 +93,6 @@
       "date": "2026-02-15T03:56:02Z",
       "summary": "Merged PR: fix lint for frontend ci workflow with enhancement in error handling with connection of database and frontend connection with firebase ",
       "url": "https://github.com/GauravKarakoti/SwapSmith/pull/128"
-    },
-    {
-      "project": "siray-ai/n8n-nodes-siray",
-      "type": "Merged Pull Request",
-      "date": "2026-02-12T12:35:12Z",
-      "summary": "Merged PR: initialize project",
-      "url": "https://github.com/siray-ai/n8n-nodes-siray/pull/3"
     },
     {
       "project": "Nitya-003/InnerHue",
