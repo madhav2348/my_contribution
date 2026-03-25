@@ -5,24 +5,28 @@ https://madhav2348.github.io/my_contribution/
 
 | Metric | Value |
 | --- | ---: |
-| Total merged PRs | 41 |
-| Unique repositories | 19 |
-| Last merged PR | 2026-03-04 |
-| Data generated at (UTC) | 2026-03-08 |
+| Total merged PRs | 46 |
+| Unique repositories | 21 |
+| Last merged PR | 2026-03-19 |
+| Data generated at (UTC) | 2026-03-25 |
 
 ## Top Repositories
 
 - `GauravKarakoti/SwapSmith`: **5** merged PRs
 - `Nitya-003/InnerHue`: **4** merged PRs
 - `Akshith985/Aptos-RWA`: **3** merged PRs
+- `GetBindu/Bindu`: **3** merged PRs
 - `Nsanjayboruds/RIVETO`: **3** merged PRs
-- `saismrutiranjan18/Campus_Runner`: **3** merged PRs
 
 ## All Merged PRs
 
 | Date (UTC) | Repository | Pull Request |
 | --- | --- | --- |
+| 2026-03-19 | `WallGodds/WallGodds-Web` | [update navbar hambergur mobile view](https://github.com/WallGodds/WallGodds-Web/pull/300) |
+| 2026-03-08 | `GetBindu/Bindu` | [TODO: image handling](https://github.com/GetBindu/Bindu/pull/343) |
+| 2026-03-06 | `siray-ai/siray-zapier` | [initialize project](https://github.com/siray-ai/siray-zapier/pull/2) |
 | 2026-03-04 | `agnivo988/Repo-lyzer` | [feat. Added monitoring dashboard](https://github.com/agnivo988/Repo-lyzer/pull/220) |
+| 2026-03-04 | `siray-ai/n8n-nodes-siray` | [add embedding node](https://github.com/siray-ai/n8n-nodes-siray/pull/13) |
 | 2026-03-03 | `Akshith985/Aptos-RWA` | [fix. add gas price](https://github.com/Akshith985/Aptos-RWA/pull/32) |
 | 2026-03-03 | `Akshith985/Aptos-RWA` | [fix-wallet-connection](https://github.com/Akshith985/Aptos-RWA/pull/29) |
 | 2026-03-02 | `Akshith985/Aptos-RWA` | [add dark mode](https://github.com/Akshith985/Aptos-RWA/pull/30) |
@@ -35,6 +39,7 @@ https://madhav2348.github.io/my_contribution/
 | 2026-02-16 | `awhvish/SisyphusDB` | [Add makefile and update documentation](https://github.com/awhvish/SisyphusDB/pull/17) |
 | 2026-02-15 | `JAYATIAHUJA/HIRE` | [Add Dockerization](https://github.com/JAYATIAHUJA/HIRE/pull/16) |
 | 2026-02-15 | `GauravKarakoti/SwapSmith` | [fix lint for frontend ci workflow with enhancement in error handling with connection of database and frontend connection with firebase ](https://github.com/GauravKarakoti/SwapSmith/pull/128) |
+| 2026-02-12 | `siray-ai/n8n-nodes-siray` | [initialize project](https://github.com/siray-ai/n8n-nodes-siray/pull/3) |
 | 2026-02-11 | `Nitya-003/InnerHue` | [migration from state management to zushtand](https://github.com/Nitya-003/InnerHue/pull/77) |
 | 2026-02-07 | `awhvish/SisyphusDB` | [feat. CLI tool with configuration management, metrics, and testing tools](https://github.com/awhvish/SisyphusDB/pull/11) |
 | 2026-02-07 | `WARlord05/SpeedyHighway` | [Update build_and_release.yml](https://github.com/WARlord05/SpeedyHighway/pull/16) |
